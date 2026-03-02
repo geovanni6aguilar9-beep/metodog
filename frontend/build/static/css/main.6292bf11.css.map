@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.6292bf11.css","mappings":"AACA,KAAkD,eAAgB,CAAE,UAAW,CAA7D,4BAA8B,CAAzC,QAA0E","sources":["index.css"],"sourcesContent":["/* index.css mínimo para build */\nbody { margin: 0; font-family: Arial, sans-serif; background: #fff; color: #111; }\r\n"],"names":[],"sourceRoot":""}
