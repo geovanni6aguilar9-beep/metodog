@@ -1,4 +1,4 @@
-ï»¿# Metodog
+# Metodog
 
 Backend Node + Docker para Metodog.
 
@@ -10,7 +10,7 @@ Frontend: http://localhost:3001
 Backend:  http://localhost:4000
 Postgres: localhost:5432
 
-## Comandos Ãºtiles
+## Comandos útiles
 docker compose ps
 docker compose logs -f backend
 docker exec -it metodog-backend-1 sh
@@ -28,4 +28,4 @@ git commit -m "docs: add README"
 git push --set-upstream origin docs/add-readme
 
 ## Notas
-AÃ±adir un archivo .env.example con las variables necesarias (DB_HOST, DB_USER, DB_PASS, PORT).
+Añadir un archivo .env.example con las variables necesarias (DB_HOST, DB_USER, DB_PASS, PORT).
