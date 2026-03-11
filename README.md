@@ -1,9 +1,3 @@
-ï»¿# Metodog
+# Metodog
 
-Backend Node + Docker para Metodog.
-
-## Ejecutar
-docker compose up -d --build
-
-## Endpoint
-GET / -> http://localhost:4000/
+(Contenido del README — revisa y completa según necesites)
