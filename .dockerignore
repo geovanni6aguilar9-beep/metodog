@@ -1,7 +1,8 @@
-﻿node_modules
-npm-debug.log
-.DS_Store
-.env
-dist
-build
+﻿.git
+tmp_backup
+.git_logs_backup
+*.bak
+node_modules
 .vscode
+.DS_Store
+Thumbs.db

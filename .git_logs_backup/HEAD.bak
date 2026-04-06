@@ -1,0 +1,25 @@
+0000000000000000000000000000000000000000 08bc4dc54f72c90f939606664a588f852d3c8e63 Tu Nombre <tu@correo.com> 1772420221 -0600	commit (initial): Fix server.js; add backend and compose override
+08bc4dc54f72c90f939606664a588f852d3c8e63 0000000000000000000000000000000000000000 Tu Nombre <tu@correo.com> 1772420232 -0600	Branch: renamed refs/heads/main to refs/heads/main
+08bc4dc54f72c90f939606664a588f852d3c8e63 08bc4dc54f72c90f939606664a588f852d3c8e63 Tu Nombre <tu@correo.com> 1772420232 -0600	Branch: renamed refs/heads/main to refs/heads/main
+08bc4dc54f72c90f939606664a588f852d3c8e63 4c664a2f2ab141513161ad9fd9d0bfd94016f200 Tu Nombre <tu@correo.com> 1772457107 -0600	commit: Add README
+4c664a2f2ab141513161ad9fd9d0bfd94016f200 0000000000000000000000000000000000000000 Tu Nombre <tu@correo.com> 1772457282 -0600	Branch: renamed refs/heads/main to refs/heads/main
+4c664a2f2ab141513161ad9fd9d0bfd94016f200 4c664a2f2ab141513161ad9fd9d0bfd94016f200 Tu Nombre <tu@correo.com> 1772457282 -0600	Branch: renamed refs/heads/main to refs/heads/main
+4c664a2f2ab141513161ad9fd9d0bfd94016f200 0000000000000000000000000000000000000000 Tu Nombre <tu@correo.com> 1772461272 -0600	Branch: renamed refs/heads/main to refs/heads/main
+4c664a2f2ab141513161ad9fd9d0bfd94016f200 4c664a2f2ab141513161ad9fd9d0bfd94016f200 Tu Nombre <tu@correo.com> 1772461272 -0600	Branch: renamed refs/heads/main to refs/heads/main
+4c664a2f2ab141513161ad9fd9d0bfd94016f200 4c664a2f2ab141513161ad9fd9d0bfd94016f200 Tu Nombre <tu@correo.com> 1772461940 -0600	checkout: moving from main to feat/mi-cambio
+4c664a2f2ab141513161ad9fd9d0bfd94016f200 cbe7effb19cfb1959c566b2a399cd0c866a542b9 Tu Nombre <tu@correo.com> 1772462186 -0600	commit: Describe el cambio
+cbe7effb19cfb1959c566b2a399cd0c866a542b9 0000000000000000000000000000000000000000 Tu Nombre <tu@correo.com> 1772462388 -0600	Branch: renamed refs/heads/feat/mi-cambio to refs/heads/main
+0000000000000000000000000000000000000000 cbe7effb19cfb1959c566b2a399cd0c866a542b9 Tu Nombre <tu@correo.com> 1772462388 -0600	Branch: renamed refs/heads/feat/mi-cambio to refs/heads/main
+cbe7effb19cfb1959c566b2a399cd0c866a542b9 cbe7effb19cfb1959c566b2a399cd0c866a542b9 Tu Nombre <tu@correo.com> 1772544076 -0600	checkout: moving from main to docs/add-readme
+cbe7effb19cfb1959c566b2a399cd0c866a542b9 cda065fa95e3f47267e8316e9fb5b5ffc0c388d1 Tu Nombre <tu@correo.com> 1772544078 -0600	commit: docs: add cleaned README
+cda065fa95e3f47267e8316e9fb5b5ffc0c388d1 cda065fa95e3f47267e8316e9fb5b5ffc0c388d1 Tu Nombre <tu@correo.com> 1772638738 -0600	checkout: moving from docs/add-readme to docs/add-readme
+cda065fa95e3f47267e8316e9fb5b5ffc0c388d1 920cbe74f8b785034907886a409f223b545fc631 Tu Nombre <tu@correo.com> 1772730697 -0600	commit: chore: update backend submodule to include /health endpoint (point to my repo)
+920cbe74f8b785034907886a409f223b545fc631 73a36aad72defdd5a54a15a2c11b703a82b71010 Tu Nombre <tu@correo.com> 1772733772 -0600	commit: chore: update backend submodule to include /health endpoint
+73a36aad72defdd5a54a15a2c11b703a82b71010 a29e26d357a342ea1554d834ebb3938394b3d01c Tu Nombre <tu@correo.com> 1772734254 -0600	commit: chore: add .gitmodules and point backend submodule to my fork
+a29e26d357a342ea1554d834ebb3938394b3d01c a285deeda2d24d8a98e427d5cdc5a24b523d9401 Tu Nombre <tu@correo.com> 1772734335 -0600	commit: chore: add .gitmodules and point backend submodule to my fork
+a285deeda2d24d8a98e427d5cdc5a24b523d9401 7b2b606b2bd6470d1b1bd3e0d57467cf6640fb45 Tu Nombre <tu@correo.com> 1772908883 -0600	commit: chore: update backend submodule to <descripcion>
+7b2b606b2bd6470d1b1bd3e0d57467cf6640fb45 a94506f1410a73fb236bfd8cd018463b6cedb194 Tu Nombre <tu@correo.com> 1772923054 -0600	commit: chore: update backend submodule reference after Dockerfile cleanup
+a94506f1410a73fb236bfd8cd018463b6cedb194 b4afd22ebc9726b502d8e5d1945cd0c9487a4db8 Tu Nombre <tu@correo.com> 1772924164 -0600	commit: chore: update backend submodule reference after cleanup
+b4afd22ebc9726b502d8e5d1945cd0c9487a4db8 eb44a060a8c4b57333ab261003fe96a2a2a8a33b Tu Nombre <tu@correo.com> 1772924180 -0600	commit: chore: remove accidental edge_all_open_tabs metadata from repo files
+eb44a060a8c4b57333ab261003fe96a2a2a8a33b d4845eda5ecd93f7271cc2497e7cbedc8c80fbfd Tu Nombre <tu@correo.com> 1772929870 -0600	commit: chore: remove accidental metadata from repo files
+d4845eda5ecd93f7271cc2497e7cbedc8c80fbfd 9335ec9c8534f6f177825109490770c5ddbae882 Tu Nombre <tu@correo.com> 1773153568 -0600	commit: chore: remove accidental metadata and cleanup backup files
