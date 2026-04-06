@@ -1,0 +1,16 @@
+﻿# backups and mirrors
+metodog_backup_*/
+metodog-mirror.git/
+.git_logs_backup/
+tmp_backup/
+*.bak
+
+# node / build
+node_modules/
+frontend/build/
+
+# git internals and OS
+.DS_Store
+Thumbs.db
+.vscode
+.env
