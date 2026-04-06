@@ -1,7 +1,4 @@
-﻿# Normalizar texto automáticamente
-* text=auto
-
-# Forzar LF en scripts y archivos que lo requieren
+﻿* text=auto
 *.sh text eol=lf
 *.py text eol=lf
 *.yml text eol=lf
