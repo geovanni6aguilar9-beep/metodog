@@ -1,5 +1,6 @@
-# backups and mirrors
+﻿# backups and mirrors
 .git_logs_backup/
 metodog_backup_*/
 tmp_backup/
 *.bak
+node_modules/
