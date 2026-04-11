@@ -1,6 +1,0 @@
-*** Begin Patch
-*** Update File: README.md
-@@
--# User's Edge browser tabs metadata. The tab with IsCurrent=true is user's currently active/viewing tab, while tabs with IsCurrent=false are other open tabs in the background.
--
-

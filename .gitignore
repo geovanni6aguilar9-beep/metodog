@@ -2,6 +2,8 @@
 .git_logs_backup
 metodog_backup_*
 tmp_backup
+cleanup-metadata.patch
+cleanup-metadata.patch.bak
 node_modules
 *.bak
 *.zip

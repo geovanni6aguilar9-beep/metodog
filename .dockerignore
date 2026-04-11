@@ -1,8 +1,7 @@
 ﻿.git
-tmp_backup
 .git_logs_backup
-*.bak
+metodog_backup_*
+tmp_backup
 node_modules
-.vscode
-.DS_Store
-Thumbs.db
+*.bak
+*.zip
