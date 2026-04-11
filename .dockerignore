@@ -1,7 +1,9 @@
-﻿node_modules
-npm-debug.log
-.DS_Store
-.env
-dist
-build
-.vscode
+﻿cleanup-metadata.patch
+cleanup-metadata.patch.bak
+.git
+.git_logs_backup
+metodog_backup_*
+tmp_backup
+node_modules
+*.bak
+*.zip
