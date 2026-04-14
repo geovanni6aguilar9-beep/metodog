@@ -1,4 +1,6 @@
-﻿services:
+﻿version: "3.8"
+
+services:
   db:
     image: postgres:15
     environment:
@@ -6,14 +8,15 @@
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: metodog
     ports:
-      - '5432:5432'
+      - "5432:5432"
     volumes:
       - db_data:/var/lib/postgresql/data
     healthcheck:
-      test: ['CMD-SHELL','pg_isready -U postgres -d metodog']
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
       interval: 10s
       timeout: 5s
-      retries: 5
+      retries: 6
+      start_period: 30s
 
   backend:
     build:
@@ -30,12 +33,19 @@
       DB_PASS: postgres
       DB_NAME: metodog
     ports:
-      - '4000:4000'
+      - "4001:4000"
     depends_on:
       db:
         condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://127.0.0.1:4000/health | grep -q '\"status\":\"ok\"' || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+    restart: unless-stopped
 
-  frontend:   # ← corregido, alineado con backend y db
+  frontend:
     build:
       context: ./frontend
       dockerfile: Dockerfile
@@ -45,10 +55,10 @@
       - frontend_node_modules:/app/node_modules
     environment:
       NODE_ENV: development
-      REACT_APP_API_URL: http://localhost:4000
+      REACT_APP_API_URL: http://localhost:4001
       HOST: 0.0.0.0
     ports:
-      - '3001:3000'
+      - "3001:3000"
     depends_on:
       - backend
 
