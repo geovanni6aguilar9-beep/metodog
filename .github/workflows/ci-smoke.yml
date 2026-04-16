@@ -1,0 +1,39 @@
+﻿name: CI Smoke Test
+
+on:
+  push:
+    branches: [ feat/backend-plans-temp ]
+  pull_request:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:15
+        env:
+          POSTGRES_USER: metodog
+          POSTGRES_PASSWORD: metodog_pass
+          POSTGRES_DB: metodog_dev
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd='pg_isready -U metodog' --health-interval=10s --health-timeout=5s --health-retries=5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: Install backend deps
+        working-directory: backend
+        run: npm ci
+      - name: Start backend
+        working-directory: backend
+        run: |
+          PORT=4001 DATABASE_URL=postgres://metodog:metodog_pass@localhost:5432/metodog_dev npm start &
+          sleep 5
+      - name: Run smoke tests
+        run: |
+          curl -f http://localhost:4001/health
+          curl -f http://localhost:4001/api/plans
