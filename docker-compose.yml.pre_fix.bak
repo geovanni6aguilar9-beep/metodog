@@ -18,4 +18,10 @@ services:
       retries: 5
       start_period: 20s
 
-  backend:\n    build:\n      context: ./backend\n      dockerfile: Dockerfile
+  backend:
+  build:
+    context: ./backend
+    dockerfile: Dockerfile
+
+
+
